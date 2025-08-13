@@ -788,6 +788,18 @@ background: #fcfcfc;
     border-color: #4d5ae5;
 }
 
+.modal-form-text-svg {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-label-input-text:focus + .modal-form-text-svg {
+    fill: #4D5AE5;
+}
+
 .modal-form-comment-container {
     margin-bottom: 16px;
 }
@@ -878,7 +890,9 @@ background: #fcfcfc;
     background-color: #4D5AE5;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 4px;
 }
+
 
 .header-link-item:hover,
 .header-link-item:focus,
