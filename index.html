@@ -504,43 +504,65 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <p class="modal-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, commodi
-          labore numquam officia, ex molestiae ullam quas quis ipsa rem fugiat
-          cupiditate sit! Vero voluptatum eos quaerat possimus officia vitae
-          aliquid cupiditate rerum accusantium dolorem aperiam odit, eligendi
-          officiis facilis, maiores dolor tempore doloribus delectus! Et culpa
-          magni cum, corrupti aliquid voluptates quam similique officiis
-          repellat, veritatis praesentium blanditiis quas laborum dicta, tenetur
-          odit aliquam excepturi quia tempore laudantium! Voluptates eligendi
-          molestiae recusandae officia laboriosam non officiis molestias tempore
-          aspernatur, voluptatem magnam aliquid eos quae sit similique
-          doloremque tempora exercitationem commodi ut quos libero! Eum
-          provident optio id at distinctio porro facere, sunt dolore. Numquam
-          praesentium repellendus accusamus eaque quibusdam. Alias dignissimos
-          explicabo sapiente vitae eius quidem, adipisci sit obcaecati
-          praesentium ea sint voluptatibus totam, incidunt suscipit doloremque
-          quasi atque cupiditate. Ipsa rerum, quis similique dolore
-          exercitationem officiis? Alias, dolorum vero consequuntur dolores
-          consectetur magnam. Modi commodi, ratione fuga dolores voluptas beatae
-          iste nemo amet optio deleniti itaque sed repellat, iusto alias
-          repellendus cupiditate ullam illum dolorem a laborum. Vitae sapiente
-          dolorum deserunt aut quam odio eaque velit excepturi perspiciatis
-          voluptatibus quasi, dignissimos facere eius, ad, molestias soluta
-          nihil sint odit esse. Iste omnis eveniet, quidem iure asperiores
-          libero vel obcaecati placeat aliquam quo consectetur, esse quasi,
-          voluptates sint fuga? Eveniet nam omnis dolores ducimus veniam qui,
-          quibusdam dolorem quam, fugit provident eos vero alias deserunt,
-          corrupti minus tempora error sequi quisquam soluta. Maxime at
-          repellendus non, eos ullam architecto optio repellat! Explicabo quam
-          eveniet ullam ut pariatur reiciendis, illum velit. Distinctio enim
-          optio nisi incidunt minima adipisci unde voluptatem? Modi atque autem,
-          quos delectus harum quisquam ducimus quas assumenda, necessitatibus
-          repellendus ea minus voluptatibus perspiciatis quam consectetur porro
-          blanditiis facere vel beatae! Sunt voluptatem dignissimos debitis
-          deleniti a consectetur fugit, laborum maxime modi hic, itaque est
-          dolor repudiandae veniam.
-        </p>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+          <div class="modal-form-container">
+            <label class="modal-form-label" for="user-name">Name</label>
+            <div class="modal-form-label-container">
+              <input
+                class="modal-label-input-text"
+                type="text"
+                id="user-name"
+                name="user-name"
+              />
+            </div>
+          </div>
+          <div class="modal-form-container">
+            <label class="modal-form-label" for="">Phone</label>
+            <div class="modal-form-label-container">
+              <input
+                class="modal-label-input-text"
+                type="text"
+                id="user-name"
+                name="user-name"
+              />
+            </div>
+          </div>
+          <div class="modal-form-container">
+            <label class="modal-form-label" for="">Email</label>
+            <div class="modal-form-label-container">
+              <input
+                class="modal-label-input-text"
+                type="text"
+                id="user-name"
+                name="user-name"
+              />
+            </div>
+          </div>
+          <div class="modal-form-comment-container">
+            <label class="modal-form-label" for="user-comment">Comment</label>
+            <textarea
+              class="modal-form-textarea"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="modal-form-checkbox-container">
+            <input
+              class="modal-form-checkbox-input visually-hidden"
+              id="user-privacy"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+            />
+            <label class="modal-form-label-privacy" for="user-privacy"
+              >I accept the terms and conditions of the
+              <span class="modal-span-privacy">Privacy Policy</span></label
+            >
+          </div>
+          <button class="modal-form-button">Send</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
