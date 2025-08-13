@@ -518,23 +518,23 @@
             </div>
           </div>
           <div class="modal-form-container">
-            <label class="modal-form-label" for="">Phone</label>
+            <label class="modal-form-label" for="user-name-phone">Phone</label>
             <div class="modal-form-label-container">
               <input
                 class="modal-label-input-text"
                 type="text"
-                id="user-name"
+                id="user-name-phone"
                 name="user-name"
               />
             </div>
           </div>
           <div class="modal-form-container">
-            <label class="modal-form-label" for="">Email</label>
+            <label class="modal-form-label" for="user-name-email">Email</label>
             <div class="modal-form-label-container">
               <input
                 class="modal-label-input-text"
                 type="text"
-                id="user-name"
+                id="user-name-email"
                 name="user-name"
               />
             </div>
@@ -556,9 +556,14 @@
               value="true"
               name="user-privacy"
             />
-            <label class="modal-form-label-privacy" for="user-privacy"
-              >I accept the terms and conditions of the
-              <span class="modal-span-privacy">Privacy Policy</span></label
+            <label class="modal-form-label-privacy" for="user-privacy">
+              <span class="modal-span-privacy">
+                <svg class="modal-chechbox-svg" width="10" height="8">
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="modal-form-label-link">Privacy Policy</a></label
             >
           </div>
           <button class="modal-form-button">Send</button>
